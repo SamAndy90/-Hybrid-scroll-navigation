@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    &__menu {
+        padding: 30px 0;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    &__link {
+        font-size: 24px;
+        font-weight: 500;
+        transition: all .3s ease;
+        color: rgb(163, 5, 97);
+        &:hover {
+            color: rgb(227, 6, 6);
+        }
+    }
+}
